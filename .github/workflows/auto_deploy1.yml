@@ -34,4 +34,4 @@ jobs:
         run: npm install --global surge
         
       - name: deploying with surge
-        run:  surge ./ wajihawajid_firstproject.surge.sh --token "65fed3b74df17d2f243b8678017a3610"
+        run:  surge ./ wajihawajid_firstproject.surge.sh --token ${{secrets.BOOTCAMPCLASS1}}
